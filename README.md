@@ -47,6 +47,7 @@ Working Prototype
 4.  Unzip  `docsource.7z`  in the same directory
 
 **Running SurfClipse**
+
 Execute the following command with your custom parameters:
 ```
 java -jar surfclipse-exec.jar -caseNo 20 -query query -strace strace -ccontext ccontext -output search-output -topk 10
@@ -60,13 +61,17 @@ java -jar surfclipse-exec.jar -caseNo 20 -query query -strace strace -ccontext c
 -   `-task`  : Task to be performed. In this case, use  `search`. The default operation is  `search`
 
 **Execute a Single Query**
+
 ![](http://homepage.usask.ca/~masud.rahman/surfclipse/surfclipse-running-snapshot.png)
 
 **Execute all Queries**
+
 ![](http://homepage.usask.ca/~masud.rahman/surfclipse/surfclipse-running-snapshot-all.png)
 
-****Evaluating SurfClipse****
+**Evaluating SurfClipse**
+
 Execute the following command with your custom parameters:
+
 ```
 java -jar surfclipse-exec.jar -totalcase 50 -output search-output -goldset solution -topk 10 -task evaluate
 ```
