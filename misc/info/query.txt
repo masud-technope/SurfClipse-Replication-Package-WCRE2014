@@ -1,0 +1,82 @@
+ADT requires 'org.eclipse.wst.sse.core 0.0.0' but it could not be found
+How do I install Eclipse Marketplace in Eclipse Classic?
+Eclipse fonts and background color
+Eclipse JUNO doesn't start
+How to open windows explorer on selected resource in Eclipse
+Debug certificate expired-error in Eclipse Android plugins
+'Must Override a Superclass Method' Errors after importing a project into Eclipse
+R cannot be resolved - Android error
+Android adb Unable to open sync connection!
+Your project contains error(s), please fix it before running it
+Eclipse Invalid Project Description when creating new project from existing source
+Refresh an Eclipse project with Ant
+NoClassDefFoundError - Eclipse and Android
+Any way to generate ant build.xml file automatically from Eclipse?
+Cannot find Main Class in File Compiled With Ant
+Why is Ant giving me a Unsupported major.minor version error
+Error! The first argument to the non-static Java function 'replace' is not a valid object reference
+Accessing non-static member variables from static methods (such as main)
+class name does not match file name
+misspelled variable name
+missing semicolon after assignment or method call statement
+missing semicolon after variable definition
+missing semicolon after import statement
+import statement naming package not classes
+giving semicolon after method signature
+missing parenthesis "(" and ")" around condition in if or while statement
+missing parentheses "(" and ")" in method call without arguments
+missing the variable type for an argument in the parameter list of method declaration
+supplying the variable type for an argument in the parameter list of method call
+redefining the type of a variable (defining a variable  which is already defined)
+missing return statement at end of some unreachable path in code
+declaring method as static when it mentions instance variables
+confusing numeric char '2' with int 2
+confusing one character string "x" with character 'x'
+Can't make a static reference to nonstatic variable whatever in class yourclass
+'...' expected
+Reached end of file while parsing
+Illegal start of expression
+Cannot find symbol
+Variable might not have been initialized
+Possible loss of precision
+Incompatible types
+Invalid method declaration; return type required
+Missing return statement
+Unreachable statement
+java.lang.StringIndexOutOfBoundsException: String index out of range: X 
+Naming the Class Differently from its File Name
+Comparing Strings with ==
+Forgetting to Initialize Object Arrays
+Putting Several Public Classes in One File
+Shadowing an Attribute with a Local Variable
+Forgetting to call a Superclass Constructors
+Catching Exceptions Incorrectly
+Returning void from an Accessor method
+Calling Instance Methods from main()
+Treating Strings as In/Out Parameters
+Declaring a Constructor as a Method
+Forgetting to Cast Object Data Types
+Extending Interfaces
+Calling Superclass Methods and Forgetting to Use the Return Value
+Forgetting to Add AWT Components
+Neglecting Import Statements
+Forgetting to Start Threads
+Using Deprecated java.io.DataInputStream readLine()
+Assigning and passing double literals as floats.
+Invalid preference page path: XML Syntax
+Invalid preference page path: HTML Syntax
+The project cannot be built until build path errors are resolved
+Project 'xxx' is missing required library
+Unbound classpath container: 'JRE System Library [JDK7]' in project
+FORMATTER_PACKAGE cannot be resolved or is not a field
+NONE cannot be resolved or is not a field
+Description	Resource	Path	Location	Type
+String literal is not properly closed by a double-quote
+Disable DTD warning for Ant scripts in Eclipse?
+
+
+
+
+
+
+

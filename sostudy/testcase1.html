@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<META NAME="Generator" CONTENT="TextPad 4.6">
+<META NAME="Author" CONTENT="?">
+<META NAME="Keywords" CONTENT="?">
+<META NAME="Description" CONTENT="?">
+
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<style type="text/css">
+code{
+	font: 1em 'Courier New', Courier, Fixed, monospace;
+    font-size : 100%;
+    color: #000;
+	background-color:#efefef;
+    /*background : #fff url(http://www.estudiowas.com.ar/images/preback.jpg) no-repeat left top;*/
+    overflow : auto;
+    text-align:left;
+    /*border : 1px solid #5581C0;*/
+	padding : 3px;
+    margin:1em 0 1em 0;
+    line-height:20px;
+    font-weight:normal!important;
+	 }
+ code, pre
+ {
+ background-color:#efefef;
+ }
+ </style>
+ 
+ <script language="javascript">
+ var show=function()
+ {
+ 	if(confirm("Are you sure to check the solutions? Only group A is supposed to check it."))
+	{
+		document.getElementById("solution").style.display="block";
+	}else
+	{
+		
+	}
+	
+ }
+ 
+ </script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#FF0000" VLINK="#800000" ALINK="#FF00FF" BACKGROUND="?">
+
+
+<table border="0" cellspacing="0" cellpadding="2" align="left">
+<tr>
+<td>
+<h1>Test Case 1</h1>
+</td>
+</tr>
+<tr>
+<td>
+<a href="index.html">Back to all test cases</a>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Code snippet.</strong>
+</td>
+</tr>
+<tr>
+<td>
+<pre class="prettyprint">
+public static void main(String[] args) {
+
+		//code for adding items in attaylist		
+		List<String> myList = new ArrayList<String>();
+        myList.add("1");
+        myList.add("2");
+        myList.add("3");
+        myList.add("4");
+        myList.add("5");
+         
+        Iterator<String> it = myList.iterator();
+        while(it.hasNext()){
+            <b style="background-color:red">String value = it.next();</b>
+            //System.out.println("List Value:"+value);
+            if(value.equals("3")) myList.remove(value);
+        }
+         
+        Map&lt;String,String> myMap = new HashMap&lt;String,String>();
+        myMap.put("1", "1");
+        myMap.put("2", "2");
+        myMap.put("3", "3");
+ 
+        Iterator<String> it1 = myMap.keySet().iterator();
+        while(it1.hasNext()){
+            String key = it1.next();
+            System.out.println("Map Value:"+myMap.get(key));
+            if(key.equals("2")){
+                myMap.put("1","4");
+                //myMap.put("4", "4");
+            }
+        }
+	}
+}		
+</pre>
+</td>
+</tr>
+<tr>
+<td><strong>Created exception</strong></td>
+</tr>
+<tr>
+<td>
+<pre>
+Exception in thread "main" java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at core.TestCase1.main(TestCase1.java:74)
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#" onClick="javascript:show();">Show solutions from SurfClipse</a>
+</td>
+</tr>
+<tr>
+<td>
+<ol id="solution" style="display:none">
+<li><a href="http://stackoverflow.com/questions/18952060/java-util-concurrentmodificationexception-when-i-try-to-sum-the-values-of-object">http://stackoverflow.com/questions/18952060/java-util-concurrentmodificationexception-when-i-try-to-sum-the-values-of-object</a></li>
+<li>
+<a href="http://stackoverflow.com/questions/9744459/removing-elements-from-an-arraylist">http://stackoverflow.com/questions/9744459/removing-elements-from-an-arraylist</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/1622084/java-changing-the-properties-of-an-iterable-object-while-iterating-over-it">http://stackoverflow.com/questions/1622084/java-changing-the-properties-of-an-iterable-object-while-iterating-over-it</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/9437139/java-java-util-concurrentmodificationexception">http://stackoverflow.com/questions/9437139/java-java-util-concurrentmodificationexception</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/18379778/is-possible-to-erase-an-arraylist-element-inside-a-for-cycle">http://stackoverflow.com/questions/18379778/is-possible-to-erase-an-arraylist-element-inside-a-for-cycle</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/8892027/remove-entries-from-the-list-using-iterator">http://stackoverflow.com/questions/8892027/remove-entries-from-the-list-using-iterator</a>
+</li>
+<li>
+<a href="http://chqz1987.blog.163.com/blog/static/51438311201121741515138/">http://chqz1987.blog.163.com/blog/static/51438311201121741515138/</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/9806421/concurrentmodificationexception-when-adding-inside-a-for-each-loop-in-arraylist">
+http://stackoverflow.com/questions/9806421/concurrentmodificationexception-when-adding-inside-a-for-each-loop-in-arraylist
+</a>
+</li>
+<li>
+<a href="http://www.coderanch.com/t/233932/threads/java/deal-Concurrent-Modification-Exception">
+http://www.coderanch.com/t/233932/threads/java/deal-Concurrent-Modification-Exception
+</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/6614805/concurrentmodificationexception-on-single-threaded-code">
+http://stackoverflow.com/questions/6614805/concurrentmodificationexception-on-single-threaded-code
+</a>
+</li>
+</ol>
+</td>
+</tr>
+</table>
+
+</BODY>
+</HTML>

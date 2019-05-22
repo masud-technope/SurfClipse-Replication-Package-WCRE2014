@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/SurfClipseFeature_1.0.0.201409262354.jar" id="SurfClipseFeature" version="1.0.0.201409262354">
+      <category name="SurfClipse"/>
+   </feature>
+   <category-def name="SurfClipse" label="SurfClipse"/>
+</site>

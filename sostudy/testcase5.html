@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<HTML>
+<HEAD>
+<TITLE></TITLE>
+<META NAME="Generator" CONTENT="TextPad 4.6">
+<META NAME="Author" CONTENT="?">
+<META NAME="Keywords" CONTENT="?">
+<META NAME="Description" CONTENT="?">
+
+<script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+<style type="text/css">
+code{
+	font: 1em 'Courier New', Courier, Fixed, monospace;
+    font-size : 100%;
+    color: #000;
+	background-color:#efefef;
+    /*background : #fff url(http://www.estudiowas.com.ar/images/preback.jpg) no-repeat left top;*/
+    overflow : auto;
+    text-align:left;
+    /*border : 1px solid #5581C0;*/
+	padding : 3px;
+    margin:1em 0 1em 0;
+    line-height:20px;
+    font-weight:normal!important;
+	 }
+ code, pre
+ {
+ background-color:#efefef;
+ }
+ </style>
+ 
+ <script language="javascript">
+ var show=function()
+ {
+ 	if(confirm("Are you sure to check the solutions? Only group A is supposed to check it."))
+	{
+		document.getElementById("solution").style.display="block";
+	}else
+	{
+		
+	}
+	
+ }
+ 
+ </script>
+
+</HEAD>
+
+<BODY BGCOLOR="#FFFFFF" TEXT="#000000" LINK="#FF0000" VLINK="#800000" ALINK="#FF00FF" BACKGROUND="">
+
+
+<table border="0" cellspacing="0" cellpadding="2" align="left">
+<tr>
+<td>
+<h1>Test Case 5</h1>
+</td>
+</tr>
+<tr>
+<td>
+<a href="index.html">Back to all test cases</a>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Code snippet.</strong>
+</td>
+</tr>
+<tr>
+<td>
+<pre class="prettyprint">
+public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		try
+		{
+			@SuppressWarnings("deprecation")
+			URL url = new File("./data/test.txt").toURL();
+			URLConnection connection = url.openConnection();
+			connection.setDoOutput(true);
+			<b style="background-color:red">OutputStream output = connection.getOutputStream();</b>
+		}catch(Exception exc)
+		{
+			exc.printStackTrace();
+		}
+	}
+</pre>
+</td>
+</tr>
+<tr>
+<td><strong>Created exception</strong></td>
+</tr>
+<tr>
+<td>
+<pre>
+java.net.UnknownServiceException: protocol doesn't support output
+	at java.net.URLConnection.getOutputStream(Unknown Source)
+	at core.TestCase5.main(TestCase5.java:38)
+</pre>
+</td>
+</tr>
+<tr>
+<td>
+<a href="#" onClick="javascript:show();">Show solutions from SurfClipse</a>
+</td>
+</tr>
+<tr>
+<td>
+<ol id="solution" style="display:none">
+<li>
+<a href="http://objectmix.com/weblogic/569309-urlconnection-java-net-unknownserviceexception.html">http://objectmix.com/weblogic/569309-urlconnection-java-net-unknownserviceexception.html</a>
+</li>
+<li>
+<a href="http://www.java-forum.org/deployment/36196-problem-schreiben-datein-server.html">http://www.java-forum.org/deployment/36196-problem-schreiben-datein-server.html</a>
+</li>
+<li>
+<a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4814217">http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4814217</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/8762309/cannot-save-to-commons-config-in-jboss-5-1">http://stackoverflow.com/questions/8762309/cannot-save-to-commons-config-in-jboss-5-1</a>
+</li>
+<li>
+<a href="http://forum.html.it/forum/showthread/t-1287607.html">http://forum.html.it/forum/showthread/t-1287607.html</a>
+</li>
+<li>
+<a href="http://forums.devx.com/showthread.php?138678-URLConnection-and-getOutputStream()">http://forums.devx.com/showthread.php?138678-URLConnection-and-getOutputStream()</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/4975743/getting-applets-outputstream-throws-an-exception-what-is-wrong">http://stackoverflow.com/questions/4975743/getting-applets-outputstream-throws-an-exception-what-is-wrong
+</a>
+</li>
+<li>
+<a href="http://web.archiveorange.com/archive/v/vl24twWg6Gd1VGSngUrq">http://web.archiveorange.com/archive/v/vl24twWg6Gd1VGSngUrq</a>
+</li>	
+<li>
+<a href="http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4120784">http://bugs.sun.com/bugdatabase/view_bug.do?bug_id=4120784</a>
+</li>
+<li>
+<a href="http://stackoverflow.com/questions/17510884/passing-value-from-applet-to-php">http://stackoverflow.com/questions/17510884/passing-value-from-applet-to-php</a>
+</li>
+</ol>
+</td>
+</tr>
+</table>
+
+</BODY>
+</HTML>
