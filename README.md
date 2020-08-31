@@ -41,10 +41,12 @@ User Study
 Working Prototype
 -----------------------
 **Tool Installation**  
-1.  Get  `surfclipse-exec.jar, query, strace, ccontext, sclipseIndex, site-rank, solution`, and  `docsource`  
-2.  Keep all four items in the same directory.
-3.  Make an output folder  `search-output`  in the same directory
-4.  Unzip  `docsource.7z`  in the same directory
+1.  Unzip `SC-Sample-Dataset.zip`. This unzipped folder will be your home directory!
+2.  Get  `surfclipse-exec.jar, query, strace, ccontext, sclipseIndex, site-rank, solution`, and  `docsource`  
+3.  Keep all four items in the same directory.
+4.  Make an output folder  `search-output`  in the same directory
+5.  Unzip  `docsource.7z`  in the same directory
+
 
 **Running SurfClipse**
 
